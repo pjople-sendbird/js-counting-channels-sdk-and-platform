@@ -7,7 +7,6 @@ var TOKEN = '';
 var API = 'https://api-' + APP_ID + '.sendbird.com/v3';
 var USER_ID = '';
 
-
 function getUserChannels(token, userId, channels) {
     const tokenString = token ? '&token=' + token : '';
     const url = API + '/users/' + userId + '/my_group_channels/?limit=' + limit + tokenString;
@@ -17,10 +16,10 @@ function getUserChannels(token, userId, channels) {
         }
     }).then(response => {
         channels.push(...response.data.channels);
-        if (data.next) {
-            getUserChannels(data.next, userId, channels)
+        if (response.data.next) {
+            getUserChannels(response.data.next, userId, channels)
         } else {
-            console.log('All channels', channels);
+            console.log('All channels', channels.length);
         }
     })
 }
