@@ -2,7 +2,7 @@
 
 Simple demo for Javascript SDK and NodeJS for counting a user_id channels
 
-## Platform API
+## Platform API
 
 1) Run ```npm i``` to install Axios.
 
@@ -10,7 +10,7 @@ Simple demo for Javascript SDK and NodeJS for counting a user_id channels
 
 3) Run ```node platform.api.js``` You should see the total of channels printed on console.
 
-## SDK
+## SDK
 
 1) Fill the variables inside the ```sdk.js``` file.
 
