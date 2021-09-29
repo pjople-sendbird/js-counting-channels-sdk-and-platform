@@ -1,0 +1,23 @@
+{
+  "name": "js-counting-channels-sdk-and-platform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "platform.api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warodri-sendbird/js-counting-channels-sdk-and-platform.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/warodri-sendbird/js-counting-channels-sdk-and-platform/issues"
+  },
+  "homepage": "https://github.com/warodri-sendbird/js-counting-channels-sdk-and-platform#readme",
+  "dependencies": {
+    "axios": "^0.21.4"
+  }
+}
